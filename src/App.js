@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
-import './App.css';
+import Button from '@material-ui/core/Button';
 
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -11,6 +10,9 @@ class App extends Component {
       <div>
         <Header></Header>
         <Hero></Hero>
+        <Button variant="contained" color="secondary">
+          Default
+        </Button>
       </div>
     );
   }
