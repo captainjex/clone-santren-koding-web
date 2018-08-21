@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Button from '@material-ui/core/Button';
 
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Kajian from './components/Kajian'
 
 class App extends Component {
   render() {
@@ -10,9 +10,7 @@ class App extends Component {
       <div>
         <Header></Header>
         <Hero></Hero>
-        <Button variant="contained" color="secondary">
-          Default
-        </Button>
+        <Kajian></Kajian>
       </div>
     );
   }
