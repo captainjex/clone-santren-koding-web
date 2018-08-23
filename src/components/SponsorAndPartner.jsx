@@ -56,7 +56,7 @@ export default class SponsorAndPartner extends React.Component {
             return (
               <Col md={ item.size }>
                 <a href={"http://" + item.websiteUrl}>
-                  <img src={item.logoUrl} class="img-fluid" alt="Responsive image"/>
+                  <img src={item.logoUrl} class="img-fluid" alt="Main Sponsor"/>
                 </a>
               </Col>
             )
@@ -68,7 +68,7 @@ export default class SponsorAndPartner extends React.Component {
             return (
               <Col md={ item.size }>
                 <a href={"http://" + item.websiteUrl}>
-                  <img src={item.logoUrl} class="img-fluid" alt="Responsive image" style={{ height: '100px' }}/>
+                  <img src={item.logoUrl} class="img-fluid" alt="Sponsors" style={{ height: '100px' }}/>
                 </a>
               </Col>
             )
@@ -80,7 +80,7 @@ export default class SponsorAndPartner extends React.Component {
             return (
               <Col md={ item.size }>
                 <a href={"http://" + item.websiteUrl}>
-                  <img src={item.logoUrl} class="img-fluid" alt="Responsive image" style={{ maxHeight: '100px' }}/>
+                  <img src={item.logoUrl} class="img-fluid" alt="Partners" style={{ maxHeight: '100px' }}/>
                 </a>
               </Col>
             )
