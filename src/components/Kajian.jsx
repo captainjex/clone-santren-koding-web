@@ -9,6 +9,7 @@ import {
   CardTitle,
   CardText
 } from 'reactstrap';
+import Button from '@material-ui/core/Button';
 
 class Kajian extends React.Component {
   state = {
@@ -53,6 +54,14 @@ class Kajian extends React.Component {
               </Col>
             )
           }) }
+        </Row>
+        <br/>
+        <Row>
+          <Col align="center">
+            <Button variant="outlined" color="secondary">
+              Lihat seluruh Kajian
+            </Button>
+          </Col>
         </Row>
       </Container>
     )

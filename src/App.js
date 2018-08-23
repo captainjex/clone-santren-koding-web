@@ -12,6 +12,7 @@ class App extends Component {
         <Header></Header>
         <Hero></Hero>
         <Kajian></Kajian>
+        <hr/>
         <Footer></Footer>
       </div>
     );
